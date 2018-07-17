@@ -20,7 +20,7 @@ rails db:create
 ```
 5. Generate a model for `pokemon` and specify the *table attributes*
 ```
-rails g model pokemon
+rails g model Pokemon
 ```
 
 Table attibutes (that you add onto the above command) should look something like:
