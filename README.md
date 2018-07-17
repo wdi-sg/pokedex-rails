@@ -54,3 +54,45 @@ Refer to the gitbook materials for relevant commands and examples: https://wdi-s
 - You can change the seed file as well to have a seed master who has pokemon, or you can start with an empty db.
 - Use nested routes to refer to the pokemons and their masters.
 
+#### Tired of Pokemon yet?
+You can also build a rails app that tracks and displays parks:
+
+
+#### National Parks
+
+Beginning with the first Tree Planting Campaign in 1963, At National Parks Board (NParks) has come a long way in greening up our island city, with 4 nature reserves and more than 300 parks sprawled across Singapore to date and still growing.  
+
+Let's create an app to showcase these wonderful parks.
+
+#### Getting Started
+
+*   Fork and clone this repository
+*   Follow the recommended process for creating your Rails app.
+
+#### Components
+
+#### Models
+
+*   A `Park` model that stores the following attributes. Choose the appropriate data types for each (`string` or `text`)
+*   `name`
+*   `description`
+*   `picture` (for now, have this store a URL to a picture of a park)
+
+#### Controllers
+
+*   A controller for your home page
+*   A controller for your `Park` model
+
+#### Routes and Views
+
+| route             | description                    | controller | action/view      |
+| ----------------- | ------------------------------ | ---------- | ---------------- |
+| GET /             | Your home page                 | home       | index            |
+| GET /parks        | list all parks                 | parks      | index            |
+| GET /parks/new    | show add park form             | parks      | new              |
+| POST /parks       | create park                    | parks      | create (no view) |
+| GET /parks/1      | list park (id=1)               | parks      | show             |
+| GET /parks/2/edit | show edit park form (id=2)     | parks      | edit             |
+| PUT /parks/3      | update an existing park (id=3) | parks      | update (no view) |
+| DELETE /parks/3   | delete an existing park (id=3) | parks      | destroy (no view)|
+
