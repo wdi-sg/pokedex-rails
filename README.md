@@ -54,7 +54,7 @@ Refer to the gitbook materials for relevant commands and examples: https://wdi-s
 - You can change the seed file as well to have a seed master who has pokemon, or you can start with an empty db.
 - Use nested routes to refer to the pokemons and their masters.
 
-#### Tired of Pokemon yet?
+## Tired of Pokemon yet?
 You can also build a rails app that tracks and displays parks:
 
 
