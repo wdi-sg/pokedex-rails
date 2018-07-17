@@ -18,10 +18,25 @@ bundle install
 ```
 rails db:create
 ```
-5. Generate a model for `pokemon` and specify the table attributes
+5. Generate a model for `pokemon` and specify the *table attributes*
 ```
 rails g model pokemon
 ```
+
+Table attibutes (that you add onto the above command) should look something like:
+```
+# column name : data type .... 
+  num:text name:text
+```
+
+Just make all of the pokemon columns type text or string.
+
+Sample command with the table attributes:
+```
+rails g model Article title:string text:text
+```
+
+
 6. To create your pokemons table in your database:
 ```
 rails db:migrate
